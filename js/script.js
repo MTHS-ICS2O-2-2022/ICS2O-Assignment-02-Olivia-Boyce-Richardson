@@ -10,7 +10,7 @@
 function calculate () {
   // input
   const side, a = parseInt(document.getElementById('side a length').value)
-  const side b = parseInt(document.getElementById('side b length').value)
+  const side, b = parseInt(document.getElementById('side b length').value)
   const base = parseInt(document.getElementById('height').value)
 
   // process
