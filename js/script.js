@@ -1,20 +1,20 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
-// Created by: Mr. Coxall
+// Created by: 
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 'use strict'
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates area of a trapezoid.
  */
 function calculate () {
   // input
-  const side, a = parseInt(document.getElementById('side a length').value)
-  const side, b = parseInt(document.getElementById('side b length').value)
-  const base = parseInt(document.getElementById('height').value)
+  const sideA = parseInt(document.getElementById('side-a-length').value)
+  const sideB = parseInt(document.getElementById('side-b-length').value)
+  const height = parseInt(document.getElementById('height').value)
 
   // process
-  const area = side, a length + side b length / 2 * height
+  const area = (sideA + sideB) / 2 * height
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
